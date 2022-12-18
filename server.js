@@ -51,8 +51,8 @@ app.listen(port, function () {
       } catch(e) {
           console.log('Tests are not valid:');
           console.error(e);
-      }
-    }, 1500);
+      } 
+    }, 15000); // changed the time from 1500 milliseconds to 15,000 milliseconds due to code validation issues
   }
 });
 
